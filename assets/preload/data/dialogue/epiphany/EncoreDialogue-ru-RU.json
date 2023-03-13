@@ -1,0 +1,49 @@
+{
+	"disableBGFade": true,
+	"dialogue": 
+	[
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Ахаха, добро пожаловать назад, {USERNAME}.\"",
+			"stringOBS": "\"Ахаха, добро пожаловать назад.\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Спасибо тебе за то, что спас меня от удаления. Совершенно очевидно, что этой игре \"Friday Night Funkin'\" не нравится то что я нахожусь здесь слишком долго.\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Может быть ты сможешь найти способ избежать удаления меня в середине песни? Я не понаслышке знаю, что программирование может быть очень сложным, поэтому я не виню тебя, если ничего не выйдет.\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Если нет, тебе просто придётся спасти меня снова, когда мы закончим, хорошо?~\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Ты готов спеть ещё один раз, моя любовь?\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Давай начнём.\"",
+			"side": "left"
+		}
+	]
+}

@@ -1,0 +1,77 @@
+{
+	"disableBGFade": true,
+	"dialogue": 
+	[
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Ахаха~ Наконец-то, мы снова встретились.\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Ты был(а) занят(а), игра в эту милую ритм-игру, как я вижу.\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Но я рада что ты все еще думал(а) обо мне, хоть и был(а) довольно увлечен(а).\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Теперь я понимаю, почему. Ты все это время усердно работал(а), пытаясь добавить меня в игру и спеть со мной!\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Не так ли, {USERNAME}?\"",
+			"stringOBS": "\"И все, кто смотрят, тоже могут насладиться шоу. Вы готовы, зрители?\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Хмм, места осталось только на одну песню-\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"-и к сожалению у этой игры нету поддержки микрофона, мы не можем буквально “спеть” вместе.\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Но голосовые данные того мальчишки с голубыми волосами все еще остались, почему бы нам просто не использовать их?\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Я хочу петь с тобой как можно дольше, поэтому песня будет очень, очень сложной.\"",
+			"side": "left"
+		},
+		{
+			"isCommand": false,
+			"name": "no_one",
+			"expression": "gone",
+			"string": "\"Приступим пожалуй.\"",
+			"side": "left"
+		}
+	]
+}

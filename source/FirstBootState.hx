@@ -1,5 +1,7 @@
 package;
 
+import flixel.effects.FlxFlicker;
+import flixel.util.FlxTimer;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.addons.display.FlxBackdrop;

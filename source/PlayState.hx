@@ -122,6 +122,7 @@ class PlayState extends MusicBeatState
 	var endDialogue:String;
 	var introDoof:DialogueBox = null;
 	var endDoof:DialogueBox = null;
+	var langEnd:String = Main.tongue.locale == 'en-US' ? '' : '-${Main.tongue.locale}';
 
 	var yuriGoneCrazy:Bool = false;
 
@@ -643,6 +644,7 @@ class PlayState extends MusicBeatState
 			if (metadata.song.introDialogue != null && showCutscene)
 			{
 				introDialogue = metadata.song.introDialogue;
+
 	
 				if (SONG.song.toLowerCase() == 'epiphany')
 				{
@@ -657,12 +659,13 @@ class PlayState extends MusicBeatState
 	
 				try
 				{
-					introDoof = new DialogueBox(Assets.getText(Paths.json('dialogue/${SONG.song.toLowerCase()}/$introDialogue')));
+					introDoof = new DialogueBox(Assets.getText(Paths.json('dialogue/${SONG.song.toLowerCase()}/$introDialogue' + '$langEnd')));
 					introDoof.scrollFactor.set();
 				}
 				catch (e)
 				{
-					trace('[${SONG.song}] "$introDialogue" either doesn\'t exist or contains an error!');
+					trace(e.details());
+					trace('[${SONG.song}] "$introDialogue"$langEnd either doesn\'t exist or contains an error!');
 				}
 			}
 	
@@ -672,13 +675,13 @@ class PlayState extends MusicBeatState
 	
 				try
 				{
-					endDoof = new DialogueBox(Assets.getText(Paths.json('dialogue/${SONG.song.toLowerCase()}/$endDialogue')));
+					endDoof = new DialogueBox(Assets.getText(Paths.json('dialogue/${SONG.song.toLowerCase()}/$endDialogue' + '$langEnd')));
 					endDoof.scrollFactor.set();
 				}
 				catch (e)
 				{
 					endDoof = null;
-					trace('[${SONG.song}] "$endDialogue" either doesn\'t exist or contains an error!');
+					trace('[${SONG.song}] "$endDialogue"$langEnd either doesn\'t exist or contains an error!');
 				}
 			}
 		}
